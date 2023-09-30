@@ -1,12 +1,9 @@
-import { FormTitle } from "@/components/Form";
-import {
-  BackgroundWithText,
-  GroupCardRecommend,
-  PostContent,
-} from "@/components/PostDetail";
-import { COMPONENT_SIZE } from "@/constants";
-import { COLOR_PALLETTE } from "@/constants/color";
 import { Grid, styled } from "@mui/material";
+import { GroupCardRecommend } from "src/components/BlogContent";
+import { FormTitle } from "src/components/Form";
+import { BackgroundWithText, PostContent } from "src/components/PostDetail";
+import { COMPONENT_SIZE } from "src/constants";
+import { COLOR_PALLETTE } from "src/constants/color";
 
 export const PostDetail = () => {
   return (

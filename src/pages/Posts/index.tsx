@@ -1,10 +1,10 @@
-import { FormTitleWithSearchAndSelect } from "@/components/Form";
-import { GroupCardPost } from "@/components/Posts";
-import { COMPONENT_SIZE } from "@/constants";
-import { COLOR_PALLETTE } from "@/constants/color";
-import { FormTitleSearchProps } from "@/types";
 import { Grid, styled } from "@mui/material";
 import { FormProvider, useForm } from "react-hook-form";
+import { FormTitleWithSearchAndSelect } from "src/components/Form";
+import { GroupCardPost } from "src/components/Posts";
+import { COMPONENT_SIZE } from "src/constants";
+import { COLOR_PALLETTE } from "src/constants/color";
+import { FormTitleSearchProps } from "src/types";
 
 export const Posts = () => {
   const methods = useForm<FormTitleSearchProps>({

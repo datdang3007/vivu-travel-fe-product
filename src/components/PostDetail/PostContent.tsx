@@ -1,6 +1,6 @@
-import { COLOR_PALLETTE } from "@/constants/color";
-import { CardTravelTeller } from "@/ui";
 import { Grid, Typography, styled } from "@mui/material";
+import { COLOR_PALLETTE } from "src/constants/color";
+import { CardTravelTeller } from "src/ui";
 
 const userData = {
   name: "Reviewer 01",

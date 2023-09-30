@@ -1,9 +1,9 @@
-import { CardTravelTeller } from "@/ui";
 import { Grid } from "@mui/material";
 import { useCallback } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import { CardTravelTeller } from "src/ui";
 
 const dataListTravelTellers = [
   {
