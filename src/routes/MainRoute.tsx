@@ -5,12 +5,12 @@ import {
   Home,
   Region,
   Territory,
-  Province,
-  Place,
-  Posts,
-  PostDetail,
-  PostDetailPreview,
-  UploadPost,
+  // Province,
+  // Place,
+  // Posts,
+  // PostDetail,
+  // PostDetailPreview,
+  // UploadPost,
 } from "src/pages";
 import ScrollToTop from "src/components/ScrollToTop";
 
@@ -32,30 +32,30 @@ const protectedRoute: RouteObject = {
           path: PATH.TERRITORY,
           element: <Territory />,
         },
-        {
-          path: PATH.PROVINCE,
-          element: <Province />,
-        },
-        {
-          path: PATH.PLACE,
-          element: <Place />,
-        },
-        {
-          path: PATH.POSTS,
-          element: <Posts />,
-        },
-        {
-          path: PATH.POST_DETAIL,
-          element: <PostDetail />,
-        },
-        {
-          path: PATH.POST_DETAIL_PREVIEW,
-          element: <PostDetailPreview />,
-        },
-        {
-          path: PATH.UPLOAD_POST,
-          element: <UploadPost />,
-        },
+        // {
+        //   path: PATH.PROVINCE,
+        //   element: <Province />,
+        // },
+        // {
+        //   path: PATH.PLACE,
+        //   element: <Place />,
+        // },
+        // {
+        //   path: PATH.POSTS,
+        //   element: <Posts />,
+        // },
+        // {
+        //   path: PATH.POST_DETAIL,
+        //   element: <PostDetail />,
+        // },
+        // {
+        //   path: PATH.POST_DETAIL_PREVIEW,
+        //   element: <PostDetailPreview />,
+        // },
+        // {
+        //   path: PATH.UPLOAD_POST,
+        //   element: <UploadPost />,
+        // },
       ],
     },
   ],

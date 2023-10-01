@@ -10,10 +10,10 @@ const ProtectRouter = () => {
 };
 
 const userRoutes: RouteObject[] = [
-  // {
-  //   element: <ProtectRouter />,
-  //   children: [{ ...protectedRoute }],
-  // },
+  {
+    element: <ProtectRouter />,
+    children: [{ ...protectedRoute }],
+  },
   {
     path: PATH.LOGIN,
     element: <Login />,
